@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins','sans-serif';
+    box-sizing: border-box;
+}
+ 
+body{
+    background-color: black;
+    color: white;
+}
+.topnav {
+    background-color:black;
+    overflow: hidden;
+    box-shadow: 0 8px 8px 0 rgba(197, 185, 185, 0.2);
+  }
+  
+  
+  .topnav a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .topnav-left{
+    float:left;
+    padding-left: 50px;
+  }
+
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+ 
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+
+  .container {
+    display: flex;
+    /* height: 100vh; */
+    min-height: calc(100vh - 60px);
+  }
+  
+  .left {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .text-container {
+    text-align: center;
+  }
+  
+  .right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  footer {
+    background-color: #526D82;
+    padding: 40px 20px; /* Adjust the padding to increase the height */
+   
+  }
+  
+  .footer-links {
+    display: inline;
+    text-align: left;
+    block-size: 20%;
+    color: white;
+  }
+  
+  .footer-links a {
+    display: block;
+    margin-bottom: 5px;
+    text-decoration: none; 
+    color: blue;
+  }
+  
+  a:hover{
+    color:white
+  }
+  .cent{
+    text-align: center;
+    float:right;
+    margin-right: 5%;
+  }
+  /*Set width and height of span*/
+.myspan{
+    display: inline-block;
+    width: auto;
+    height: auto;
+
+   
+ }
+ .me{
+  height: 70%;
+ }
